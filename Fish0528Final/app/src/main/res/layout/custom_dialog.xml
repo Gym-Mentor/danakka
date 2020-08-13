@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="500dp"
+    android:layout_gravity="center"
+    android:background="@drawable/dialog"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="369dp"
+        android:layout_weight="1"
+        android:gravity="left"
+        android:text="다나까 어플은 총 10가지의 \n물고기를 분류할 수 있습니다.\n\n현재 분류 가능한물고기\n\n● 고등어\n● 쏨뱅이\n● 벵어돔\n● 범돔\n● 용치놀래기\n● 참돔\n● 줄전갱이\n● 감성돔\n● 농어\n● 보리멸"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/dialog_btn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginVertical="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_weight="1"
+        android:text="다음" />
+
+
+</LinearLayout>
+
